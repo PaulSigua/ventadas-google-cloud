@@ -2,13 +2,17 @@
     text-align: center;
     padding: 40px;
     background-color: #ffffff;
-    color: #000000;
+
+    
+    h1 {
+        margin: 20px;
+    }
 
     form {
         border: 1px solid rgb(155, 155, 155);
         border-radius: 10px;
         background-color: white;
-        color: #000;
+        color: #ffffff;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -16,8 +20,8 @@
         h2 {
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
-            background-color: #000000;
-            color: #fff;
+            background: rgb(173, 49, 203);
+            background: linear-gradient(90deg, rgba(173, 49, 203, 1) 0%, rgba(37, 109, 227, 1) 100%);
         }
 
         .info {
@@ -54,7 +58,8 @@
             }
 
             button {
-                background-color: #000000;
+                background: rgb(37, 109, 227, 1);
+                //background: linear-gradient(90deg, rgba(173, 49, 203, 1) 0%, rgba(37, 109, 227, 1) 100%);
                 padding: 5px;
                 border-radius: 10px;
                 margin: 5px;
@@ -64,9 +69,9 @@
                 cursor: pointer;
 
                 &:hover {
-                    border: 2px solid #000000;
+                    border: 2px solid rgb(173, 49, 203);
                     background-color: #fff;
-                    color: #000000;
+                    color: rgb(173, 49, 203);
                 }
             }
         }
@@ -117,7 +122,8 @@
         border-collapse: collapse;
         margin-top: 20px;
 
-        th, td {
+        th,
+        td {
             border: 1px solid #ddd;
             padding: 8px;
         }
@@ -134,18 +140,20 @@
             text-align: center;
 
             button {
-                background-color: #000000;
-                padding: 5px 10px;
-                border-radius: 5px;
-                margin: 0 5px;
+                background: rgb(37, 109, 227, 1);
+                //background: linear-gradient(90deg, rgba(173, 49, 203, 1) 0%, rgba(37, 109, 227, 1) 100%);
+                padding: 5px;
+                border-radius: 10px;
+                margin: 5px;
+                width: 70px;
                 color: #fff;
-                border: 2px solid transparent;
+                border: 2px solid rgb(255, 255, 255);
                 cursor: pointer;
 
                 &:hover {
+                    border: 2px solid rgb(173, 49, 203);
                     background-color: #fff;
-                    color: #000000;
-                    border: 2px solid #000000;
+                    color: rgb(173, 49, 203);
                 }
             }
         }

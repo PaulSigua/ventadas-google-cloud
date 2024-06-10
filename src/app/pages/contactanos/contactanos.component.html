@@ -3,9 +3,11 @@
 
     <div class="contenedor-form">
 
+        <h1 script="">Universidad Politécnica Salesiana</h1>
+
         <form action="" (ngSubmit)="guardarMensaje(nombreUsuario, correo, mensajeUsuario)">
 
-            <h2>Enviar un mensaje</h2>
+            <h2>Guardar un Recordatorio</h2>
 
             <div class="info">
 
@@ -18,7 +20,7 @@
                 <label for="">Ingrese su mensaje</label><br>
                 <textarea type="text" name="" id="" placeholder="mensaje" #mensajeUsuario></textarea><br>
 
-                <button type="submit">{{editMode ? 'Actualizar' : 'Enviar'}}</button>
+                <button type="submit">{{editMode ? 'Actualizar' : 'Guardar'}}</button>
 
             </div>
             <div class="hay-resultados-if" *ngIf="hayResultados">
